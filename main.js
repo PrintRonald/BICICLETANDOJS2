@@ -1,6 +1,6 @@
 function changeView(type) {
   const path = window.location.pathname;
-
+console.log(path);
   if (type === "home") {
     if (path === '/index.html') {
       document.body.style.backgroundColor = "red";
